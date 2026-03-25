@@ -1,8 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- SEO Meta Tags -->
+<title>Studio Collection | Curated Wall Art | Viral Prints Phoenix</title>
+<meta name="description" content="Browse the Viral Prints Studio Collection — curated artwork from our Artist Collective available for installation in your Phoenix business. Artists earn commissions.">
+<meta name="keywords" content="studio art collection Phoenix, artist collective wall art, curated mural designs, commission art installation Phoenix AZ">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Viral Prints">
+<meta name="geo.region" content="US-AZ">
+<meta name="geo.placename" content="Phoenix, Arizona">
+<link rel="canonical" href="https://viralprintsusa.com/collection">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://viralprintsusa.com/collection">
+<meta property="og:title" content="Studio Collection | Viral Prints Artist Collective">
+<meta property="og:description" content="Curated works from our growing Artist Collective. Choose art for your space — artists earn commissions when their work is chosen.">
+<meta property="og:image" content="https://viralprintsusa.com/og-image.jpg">
+<meta property="og:site_name" content="Viral Prints">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Studio Collection | Viral Prints Artist Collective">
+<meta name="twitter:description" content="Curated works from our growing Artist Collective. Choose art for your space — artists earn commissions when their work is chosen.">
+<meta name="twitter:image" content="https://viralprintsusa.com/og-image.jpg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NP81M4LQ0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NP81M4LQ0S', {
+    page_title: document.title,
+    page_location: window.location.href,
+  });
+  // Track key events
+  function trackEvent(action, category, label) {
+    gtag('event', action, {event_category: category, event_label: label});
+  }
+</script>
+<!-- Track outbound clicks -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Track Calendly clicks
+  document.querySelectorAll('a[href*="calendly"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'calendly_discovery_call'));
+  });
+  // Track phone clicks
+  document.querySelectorAll('a[href*="tel:"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'phone_call'));
+  });
+  // Track quote form CTA clicks
+  document.querySelectorAll('a[href*="quote"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'quote_cta'));
+  });
+  // Track social clicks
+  document.querySelectorAll('a[href*="instagram"], a[href*="facebook"], a[href*="linkedin"]').forEach(el => {
+    el.addEventListener('click', (e) => trackEvent('click', 'social', e.currentTarget.href));
+  });
+});
+</script>
+
+<!-- Local Business Schema for Google Maps/SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://viralprintsusa.com",
+  "name": "Viral Prints",
+  "description": "Precision wall printing and custom murals for businesses in Phoenix, Arizona. Rapid installs with minimal disruption. Serving coffee shops, gyms, retail, salons, offices, and more.",
+  "url": "https://viralprintsusa.com",
+  "telephone": "+1-480-773-4549",
+  "email": "info@viralprintsusa.com",
+  "logo": "https://viralprintsusa.com/logo.png",
+  "image": "https://viralprintsusa.com/og-image.jpg",
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Cash, Credit Card, Invoice",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Phoenix",
+    "addressRegion": "AZ",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.4484,
+    "longitude": -112.0740
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Phoenix"},
+    {"@type": "City", "name": "Scottsdale"},
+    {"@type": "City", "name": "Tempe"},
+    {"@type": "City", "name": "Mesa"},
+    {"@type": "City", "name": "Chandler"},
+    {"@type": "City", "name": "Gilbert"},
+    {"@type": "City", "name": "Glendale"}
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61584476138774",
+    "https://www.instagram.com/viralprintsusa/",
+    "https://www.linkedin.com/company/viral-prints/?viewAsMember=true"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "hasMap": "https://www.google.com/maps?cid=377888137726935225",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1",
+    "bestRating": "5"
+  }
+}
+</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Studio Collection | Viral Prints</title>
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

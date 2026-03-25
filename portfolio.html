@@ -1,8 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- SEO Meta Tags -->
+<title>Portfolio | Wall Printing & Mural Examples | Viral Prints Phoenix</title>
+<meta name="description" content="Browse Viral Prints' portfolio of wall printing concepts and mural installations for Phoenix businesses. Coffee shops, gyms, retail, offices, schools, and more.">
+<meta name="keywords" content="wall printing portfolio Phoenix, mural examples Phoenix, business wall art ideas, custom mural concepts Arizona, wall printing before after">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Viral Prints">
+<meta name="geo.region" content="US-AZ">
+<meta name="geo.placename" content="Phoenix, Arizona">
+<link rel="canonical" href="https://viralprintsusa.com/portfolio">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://viralprintsusa.com/portfolio">
+<meta property="og:title" content="Portfolio | Viral Prints Wall Printing Concepts">
+<meta property="og:description" content="See what's possible for your space. Browse concept mockups and design examples across industries from Viral Prints.">
+<meta property="og:image" content="https://viralprintsusa.com/og-image.jpg">
+<meta property="og:site_name" content="Viral Prints">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Portfolio | Viral Prints Wall Printing Concepts">
+<meta name="twitter:description" content="See what's possible for your space. Browse concept mockups and design examples across industries from Viral Prints.">
+<meta name="twitter:image" content="https://viralprintsusa.com/og-image.jpg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NP81M4LQ0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NP81M4LQ0S', {
+    page_title: document.title,
+    page_location: window.location.href,
+  });
+  // Track key events
+  function trackEvent(action, category, label) {
+    gtag('event', action, {event_category: category, event_label: label});
+  }
+</script>
+<!-- Track outbound clicks -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Track Calendly clicks
+  document.querySelectorAll('a[href*="calendly"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'calendly_discovery_call'));
+  });
+  // Track phone clicks
+  document.querySelectorAll('a[href*="tel:"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'phone_call'));
+  });
+  // Track quote form CTA clicks
+  document.querySelectorAll('a[href*="quote"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('click', 'engagement', 'quote_cta'));
+  });
+  // Track social clicks
+  document.querySelectorAll('a[href*="instagram"], a[href*="facebook"], a[href*="linkedin"]').forEach(el => {
+    el.addEventListener('click', (e) => trackEvent('click', 'social', e.currentTarget.href));
+  });
+});
+</script>
+
+<!-- Local Business Schema for Google Maps/SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://viralprintsusa.com",
+  "name": "Viral Prints",
+  "description": "Precision wall printing and custom murals for businesses in Phoenix, Arizona. Rapid installs with minimal disruption. Serving coffee shops, gyms, retail, salons, offices, and more.",
+  "url": "https://viralprintsusa.com",
+  "telephone": "+1-480-773-4549",
+  "email": "info@viralprintsusa.com",
+  "logo": "https://viralprintsusa.com/logo.png",
+  "image": "https://viralprintsusa.com/og-image.jpg",
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Cash, Credit Card, Invoice",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Phoenix",
+    "addressRegion": "AZ",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.4484,
+    "longitude": -112.0740
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Phoenix"},
+    {"@type": "City", "name": "Scottsdale"},
+    {"@type": "City", "name": "Tempe"},
+    {"@type": "City", "name": "Mesa"},
+    {"@type": "City", "name": "Chandler"},
+    {"@type": "City", "name": "Gilbert"},
+    {"@type": "City", "name": "Glendale"}
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61584476138774",
+    "https://www.instagram.com/viralprintsusa/",
+    "https://www.linkedin.com/company/viral-prints/?viewAsMember=true"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "hasMap": "https://www.google.com/maps?cid=377888137726935225",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1",
+    "bestRating": "5"
+  }
+}
+</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Portfolio | Viral Prints</title>
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -387,7 +508,7 @@ h2.display em{font-style:italic}
         </a>
         <p class="footer-tagline">"Every space has a story — we just make it easier to tell."</p>
         <div class="footer-contact">
-          <a href="mailto:info@viralprintsusa.com">✉ info@viralprintsusa.com</a>
+          <a href="/cdn-cgi/l/email-protection#6e070008012e18071c0f021e1c07001a1d1b1d0f400d0103">✉ <span class="__cf_email__" data-cfemail="8be2e5ede4cbfde2f9eae7fbf9e2e5fff8fef8eaa5e8e4e6">[email&#160;protected]</span></a>
           <a href="tel:+14807734549">📞 480-773-4549</a>
           <a href="https://viralprintsusa.com">🌐 viralprintsusa.com</a>
         </div>
@@ -468,7 +589,7 @@ h2.display em{font-style:italic}
     <button class="chat-send" onclick="sendChat()">↑</button>
   </div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const AIRTABLE_KEY='patnhj8VpHE3q7gmh.fe8e338171eb83bac90facbeb05ebb38885fe3dedb7e46308c08035cdbb3bf61';
 const AIRTABLE_BASE='appi9tMK0dx4OaJhX';
 const AIRTABLE_TABLE='tblCdVctd7PM9oS10';
@@ -566,10 +687,4 @@ function toggleMob() {
 // Reveal on scroll
 const revEls = document.querySelectorAll('.reveal');
 const revObs = new IntersectionObserver(entries => {
-  entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');revObs.unobserve(e.target)} });
-}, {threshold:.1});
-revEls.forEach(e => revObs.observe(e));
-</script>
-<script>
-function filterGallery(cat, btn) {
-  document.querySelectorAll('.filter-btn').for
+  entries.forEach(e =
